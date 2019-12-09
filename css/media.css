@@ -1,0 +1,51 @@
+@media only screen and (max-width : 1040px){
+	.sale{
+		flex-direction: column;
+	}
+	.sale-city{
+		margin-top: 24px;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width : 780px){
+	.box{
+		flex-direction: column;
+	}
+	.address{
+		background: rgba(41, 69, 148, 0.07);
+	}
+	.address-sub-bg{
+		background: none;
+		padding: 43px 20px;
+	}
+}
+@media only screen and (max-width : 576px){
+	.sale-city{
+		flex-direction: column;
+	}
+	.sale-city{
+		margin-bottom: 50px;
+	}
+	
+	.address-item{
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 430px){
+	.ui.selection.dropdown {
+    	max-width: 100%;
+    }
+    .select-name {
+	    margin: 14px 10px 0 13px;
+	}
+	.address-sub-bg{
+		background: none;
+		padding: 43px 10px;
+	}
+	.address-item{
+		font-size: 14px;
+	}
+	.address .ui.dropdown>.text{
+		font-size: 22px;
+	}
+}
